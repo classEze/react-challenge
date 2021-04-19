@@ -8,10 +8,9 @@ const Home = () => {
           <>
           <Ribbons /> 
           <section className='bg-gray-200 text-blue-500 text-xl font-bold p-2 underline'>
-               Select Company
+               Select Currency:
           </section>  
-
-     <section className='bg-gray-200 text-xl font-bold p-2'>
+     <section className='bg-gray-200 text-xl font-bold p-2 border border-'>
           <select className='w-2/12 text-lg font-bold'>
             <option selected value="AFYA">AFYA</option>
             <option value="ZAR"> ZAR </option>
@@ -24,16 +23,19 @@ const Home = () => {
            <Button text='Send' />
            <Button text='Receive'/>
          </section>
-         <section className='bg-gray-200 text-xl text-blue-500 font-bold underline p-2'>
+         <section className='bg-gray-200 text-xl text-blue-500 font-bold underline p-3'>
             Recent activity
           </section>
 
 
-         <section className='mt-4 py-4'>
-              <Noname source='/fidelity.jpg' text='Whatever I dont know' amount='1000'/>
-              <Noname source='/fidelity.jpg' text='Whatever I dont know' amount='1000'/>
-              <Noname source='/fidelity.jpg' text='Whatever I dont know' amount='1000'/>
+         <section className='mb-4 py-4'>
+              <Noname source='/fidelity.jpg' text='Whatever I dont know' amount='A100'/>
+              <Noname source='/fidelity.jpg' text='Whatever I dont know' amount='A30'/>
+              <Noname source='/fidelity.jpg' text='Whatever I dont know' amount='A10'/>
          </section>
+         <section className='bg-gray-200 h-6'>
+          </section>
+
           </>
      )
 }
