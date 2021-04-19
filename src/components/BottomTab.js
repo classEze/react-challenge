@@ -8,21 +8,20 @@ const BottomTab = () => {
      return (
           <div className='flex justify-around'>
                <TabPlusText text="Home">
-                 <FaHome size={40} className='text-red-500'/>
+                 <FaHome size={40} />
                </TabPlusText>
                <TabPlusText text="Activity">
-                 <MdLocalActivity size={40} className='text-red-500'/>
+                 <MdLocalActivity size={40} />
                </TabPlusText>
                <TabPlusText text="Wallet">
-                 <FaWallet size={40} className='text-red-500'/>
+                 <FaWallet size={40} />
                </TabPlusText >
                <TabPlusText text="Market">
-                 <FaShoppingBasket size={40} className='text-red-500'/>
+                 <FaShoppingBasket size={40} />
                </TabPlusText>
                <TabPlusText text="Earn">
-                 <FaMoneyBill size={40} className='text-red-500'/>
+                 <FaMoneyBill size={40} />
                </TabPlusText>
-
           </div>
      )
 }

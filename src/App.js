@@ -1,7 +1,8 @@
 import BottomTab from './components/BottomTab';
 import TopNav from './components/TopNav';
-import {route,Switch} from 'react-router-dom'
+import {Switch, Route} from 'react-router-dom'
 import Home from './home'  
+import Whatever from './whatever'  
 
 function App() {
   return (
@@ -9,18 +10,14 @@ function App() {
     <header>
      <TopNav />
     </header>
-    
     <main>
       <Switch>
-      <route path='/'>
+      <Route exact path='/'>
          <Home />
-      </route>
-      <route path='/:name'>
-         <Home />
-      </route>
+      </Route>
+      <Route exact path='/:name' component={Whatever} />
       </Switch>
     </main>
-
     <footer>
       <BottomTab />
     </footer>

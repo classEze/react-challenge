@@ -12,7 +12,7 @@ const Home = () => {
           </section>  
      <section className='bg-gray-200 text-xl font-bold p-2 border border-'>
           <select className='w-2/12 text-lg font-bold'>
-            <option selected value="AFYA">AFYA</option>
+            <option value="AFYA">AFYA</option>
             <option value="ZAR"> ZAR </option>
             <option value="SOKO"> SOKO </option>
           </select> 
@@ -35,7 +35,6 @@ const Home = () => {
          </section>
          <section className='bg-gray-200 h-6'>
           </section>
-
           </>
      )
 }

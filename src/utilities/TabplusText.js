@@ -1,14 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink} from 'react-router-dom'
 
 const TabplusText = ({children, text}) => {
      return (
-          <Link to='/'>
-              <div clasName='flex -flex-col'>
+          <NavLink to={'/'+ text == 'Home'? '': text.toLowerCase()}>
+              <div className='flex text-red-500 flex-col'>
                {children}
-               <p> {text}</p>  
+               <p> {text}</p> 
           </div>
-          </Link>
+          </NavLink>
      )
 }
 

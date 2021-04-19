@@ -8,3 +8,9 @@ div#root{
   grid-template-rows: 60px 1fr 100px;
   margin-top: 30px;
 }
+div.right{
+  @apply bg-red-500 h-40 flex flex-col items-center justify-center text-white shadow-md rounded-r-3xl
+}
+div.left{
+  @apply bg-red-500 h-40 flex flex-col items-center justify-center text-white shadow-md rounded-l-3xl
+}

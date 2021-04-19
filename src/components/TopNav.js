@@ -12,7 +12,6 @@ const TopNav = () => {
                      <FaUserCircle size={27} className='inline-block mr-4 text-red-500'/> 
                     <FaBell size={20} className='inline-block text-red-500' />
                </div>
-          
           </section> 
     )
 }
